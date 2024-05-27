@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: #f9f5ec;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===  Project CSS  === */
+
+.List {
+  border: 1px solid #000000;
+}
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ListItemOdd {
+  background-color: #aaaaaa;
+}
+.ListItemEven {
+  background-color: #255359;
+  color: white;
+}
+
+.Grid {
+  border: 1px solid #000000;
+}
+.GridItemEven,
+.GridItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GridItemOdd {
+  background-color: #aaaaaa;
+}
+.GridItemEven {
+  background-color: #255359;
+  color: white;
+}
+
+.Buttons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  max-width: 600px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
